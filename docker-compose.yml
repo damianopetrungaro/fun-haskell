@@ -1,0 +1,8 @@
+version: '3'
+services:
+  haskell-stack:
+    image: samdoshi/haskell-stack
+    container_name: haskell-stack
+    volumes:
+      - ./:/var/hello-world/
+    tty: true
